@@ -1,0 +1,9 @@
+This is our SS1 Project.
+
+To run the project:
+
+Go into scripts folder
+run activate.bat
+python tourism.py
+
+open web browser and type localhost:8080
