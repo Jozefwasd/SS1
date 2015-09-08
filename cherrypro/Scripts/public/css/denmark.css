@@ -1,0 +1,122 @@
+h1 
+ { 
+ font-size: 50px;
+ text-align: center;
+ color:#404040 
+ } 
+
+body 
+ { 
+ background-color:white;
+ }
+ 
+
+p.smallHeader{
+   color:black;
+   font-family:courier;
+   font-weight:bold;
+   font-size:165%;
+   text-decoration: underline;
+   }
+  
+  
+  
+
+p.number1 {
+	padding-top: 5px;
+    color:black;
+	font-family:courier;
+	font-size:110%;
+	font-weight:bold;
+	}
+	
+p.1text {
+	color:black;
+	font-family:borg;
+	font-size:90%;
+	font-weight:normal;
+	}
+	
+
+	
+	
+
+p.number2 {
+	padding-top: 40px;
+	color.black;
+	font-family:courier;
+	font-size:110%;
+	font-weight:bold;
+	}
+		
+p.2text {
+	color:black;
+	font-family:courier;
+	font-size:90%;
+	font-weight:normal;
+	}
+	
+	
+	
+	
+p.number3 {
+	padding-top: 40px;
+	color.black;
+	font-family:courier;
+	font-size:110%;
+	font-weight:bold;
+	}
+
+p.3text {
+	color:black;
+	font-family:courier;
+	font-size:90%;
+	font-weight:normal;
+	}
+	
+	
+	
+	
+	
+p.number4 {
+	padding-top: 40px;
+	color.black;
+	font-family:courier;
+	font-size:110%;
+	font-weight:bold;
+	}
+	
+p.4text {
+	color:black;
+	font-family:courier;
+	font-size:90%;
+	font-weight:normal;
+	}
+
+
+
+
+	
+p.number5 {
+	padding-top: 40px;
+	color.black;
+	font-family:courier;
+	font-size:110%;
+	font-weight:bold;
+	}
+
+p.5text {
+	color:black;
+	font-family:courier;
+	font-size:90%;
+	font-weight:normal;
+	}
+
+
+
+	
+	
+p.spacetest {
+	padding-top: 5px;
+	
+	

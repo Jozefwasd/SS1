@@ -1,0 +1,62 @@
+<html> 
+<head> 
+	<link href="/static/css/contact.css" rel="stylesheet" > 
+	<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />	
+</head> 
+<body> 
+
+<table class="table1">
+  <tr>
+	<td width="33%">
+		<p> Jozef Prokop</p></td>
+	<td width="33%">
+		<p> Andreas Most</p></td>
+	<td width="33%">
+		<p> Robert Kiss Galicz</p></td>		
+  </tr>
+  <tr>
+	<td width="33%">
+		<p> jozef@gmail.com</p></td>
+	<td width="33%">
+		<p> andreas@gmail.com</p></td>
+	<td width="33%">
+		<p> robert@gmail.com</p></td>		
+  </tr>
+</table>
+
+<a href="http://localhost:8080"\>
+<h1>{{ salutation }}</h1> 
+</a>
+<p>
+<img src="/images/cage.jpg" style="width:30%;height:50%;float:right">
+<table style="width:70%" border="0"> 
+
+	{% for i in range (0, DBcustList |count, 2 )%} 
+	<th align=left >	{{ DBcustList[i] }} </th> 
+	<tr style="height:40px"> 
+	<td> {{ DBcustList[i+1] }}  </td> 
+	</tr> 
+	<tr style="height:25px"> </tr>
+		{% endfor %} 
+		
+</table>
+
+</p>
+<form action="insertComment" method="post"> 
+
+	<p>Type your name</p> 
+	<input type="text" name="name" value="" 
+		size="10" maxlength="40"/> 
+
+	<p>Leave a Comment</p> 
+	 
+	<textarea input type="text" name="comment" value="" 
+		 maxlength="2000" rows="5" cols="50" name="comment">
+	</textarea>
+
+	<p><input type="submit" value="Submit"/></p> 
+
+	<p><input type="reset" value="Clear"/></p> 
+
+</body> 
+</html>

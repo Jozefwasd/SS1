@@ -1,0 +1,47 @@
+
+h1 
+ { 
+ font-size: 50px;
+ font-family:'Vollkorn', serif;
+ text-align: center;
+ font-weight:bold;
+ color:#404040 
+ } 
+
+body 
+ { 
+ background-color:white;
+ }
+ 
+
+p.smallHeader{
+   color:black;
+   font-family:'Vollkorn', serif;
+   font-weight:bold;
+   font-size:165%;
+   }
+  
+  
+  
+p.number {
+	padding-top: 30px;
+    color:black;
+	font-family:'Vollkorn', serif;
+	font-size:130%;
+	font-weight:bold;
+	}
+	
+p.text{
+	color:black;
+	font-family:'Vollkorn', serif;
+	font-size:90%;
+	font-weight:normal;
+	}
+
+
+
+	
+p.spacetest {
+	padding-top: 5px;
+	
+	

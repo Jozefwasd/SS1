@@ -1,0 +1,28 @@
+table.table1{
+	width: 100%;
+	text-align: center;
+	border: 3px solid black;
+}
+
+table.table3, tr.table3, td.table3 {
+	border: 2px solid black;
+	text-align: left;
+	width:50%;	
+	padding: 2%;
+}
+
+table.table3
+{
+	align: middle;
+	
+}
+
+h1
+{
+	text-align:center;
+}
+
+p
+{
+	color:blue;
+}

@@ -1,0 +1,94 @@
+h1 
+ { 
+ font-size: 50px;
+ text-align: center;
+ text-decoration: underline;
+ color:#404040
+ 
+} 
+
+h2
+{
+	font-size: 30px;
+	text-align: center;
+	color:black;
+}
+
+h3
+{
+	font-size: 30px;
+	text-indent: 2%;
+}
+
+body 
+ { 
+ background-color:#E0E0E0 
+}
+ 
+a 
+ {
+    color: white;
+}
+
+a:hover 
+{
+    color: #FF00FF;
+}
+
+table.table1 
+{
+	width: 100%;
+	border: 1px solid black;
+}
+
+table.table1 tr
+{
+	background-color: #888888;
+    color: white;
+	text-align: center;
+}
+
+table.table1 th 
+{
+	height: 50px;
+}
+
+p 
+{
+	text-align: left;
+	text-indent:3%;
+	font-size:23px;
+	color:red;
+}
+
+form 
+{
+	text-align: center;
+}
+
+table.table2 
+{
+    border-collapse: collapse;
+	width: 20%;
+	border: 1px solid black;
+}
+
+table.table2 th
+{
+    text-align: center;
+	border: 1px solid black;	
+}
+
+table.table2 tr
+{
+	background-color: green;
+    color: white;
+	height: 50px;
+	border: 1px solid black;
+
+}
+
+table.table2 td 
+{
+	border: 1px solid black;
+}
