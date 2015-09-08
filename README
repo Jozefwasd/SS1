@@ -7,3 +7,6 @@ run activate.bat
 python tourism.py
 
 open web browser and type localhost:8080
+
+Html files are located under templates folder. 
+Css files are located under public/css folder.
